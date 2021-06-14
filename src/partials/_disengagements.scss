@@ -22,6 +22,7 @@
         h2 {
             @include h2-title;
             @include center;
+            text-align: center;
             width: 60%;
         }
     

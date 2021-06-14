@@ -26,6 +26,11 @@
     line-height: 4rem;
 }
 
+@mixin h1-title {
+    font-size: 60px;
+    line-height: 5rem;
+}
+
 @mixin center {
     width: 50%;
     margin: auto;

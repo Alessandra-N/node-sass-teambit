@@ -1,0 +1,12 @@
+.get_started {
+    background-color: $orange_color;
+    .box {
+        width: 40%;
+        h1 {
+            @include h1-title;
+            margin: 3rem 0;
+        }
+        
+    }
+    
+}

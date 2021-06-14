@@ -113,6 +113,7 @@ header nav i {
   line-height: 4rem;
   width: 50%;
   margin: auto;
+  text-align: center;
   width: 60%;
 }
 .disengagement .disengagement_box .img_box_center {
@@ -151,4 +152,16 @@ header nav i {
   color: #2c4792;
   font-size: 22px;
   margin: 2rem 0;
+}
+
+.get_started {
+  background-color: #ffe7d2;
+}
+.get_started .box {
+  width: 40%;
+}
+.get_started .box h1 {
+  font-size: 60px;
+  line-height: 5rem;
+  margin: 3rem 0;
 }
