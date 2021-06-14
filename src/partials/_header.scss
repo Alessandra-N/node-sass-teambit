@@ -1,0 +1,36 @@
+header {
+    padding: 1rem 0;
+    font-size: 35px;
+    border-bottom: 1px solid $text-color;
+
+    .logo {
+        img {
+            width: 40px;
+        }
+    }
+
+    nav {
+        font-size: 25px;
+        
+        a {
+        margin-left: 1rem;
+        color: $text-color;
+        font-weight: bold;
+        }
+        a:last-child {
+
+            font-weight: bold;
+            color: #2c4792; 
+            padding: 0.8rem 1rem;
+            border: 1px solid #2c4792;
+            border-radius: 0.5rem;
+            img {
+                width: 20px;
+                margin-right: 10px;
+            }
+        }
+        i {
+            font-size: 20px;
+        }
+    }
+}
