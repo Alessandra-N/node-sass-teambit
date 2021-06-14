@@ -1,4 +1,7 @@
-@use "./partials/variables";
-@use "./partials/common";
-@use "./partials/header";
-@use "./partials/jumbotron"
+@import "./partials/variables";
+@import "./partials/mixins";
+@import "./partials/common";
+@import "./partials/header";
+@import "./partials/jumbotron";
+@import "./partials/disengagements";
+@import "./partials/feedback"

@@ -1,11 +1,36 @@
-.jumbo_right {
-    h1 {
-        font-size: 60px;
-        line-height: 5rem;
-    }
+.jumbo {
+    @include center-section;
+    padding: 3rem 0;
 
-    h3 {
-        line-height: 3rem;
-        font-weight: 500;
-    }
+    .row {
+        height: 100%;
+
+        .jumbo_left {
+            .jumbo_signin {
+                margin-top: 4rem;
+            }
+            h1 {
+                font-size: 60px;
+                line-height: 5rem;
+            }
+            h3 {
+                line-height: 3rem;
+                font-weight: 500;
+            }
+            .small_text {
+                @include thin-font;
+                margin-top: 2rem;
+            }
+            .jumbo_button {
+                @include blue-button;
+            }
+        }
+    
+        .jumbo_right {
+            img {
+                width: 100%;
+            }
+        }
+    }  
+
 }

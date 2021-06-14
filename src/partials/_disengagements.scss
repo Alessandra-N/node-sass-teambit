@@ -1,0 +1,44 @@
+.disengagement {
+    background-color: $orange_color;
+    padding: 2rem 0;
+    
+    .disengagement_box {
+        margin-bottom: 5rem;
+        
+        .row {
+            margin: 0;
+            padding: 3rem 0;
+            .img_box {
+                @include img-row;
+            }
+            img {
+                height: 150px;
+            }
+            p {
+                @include thin-font;
+            }
+        }
+            
+        h2 {
+            @include h2-title;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+    
+        .img_box_center {
+            @include img-center;
+            & > img {
+                width: 35%;
+                margin-bottom: 5rem;
+            }
+            
+        }
+        .box-first {
+            border-bottom: 1px solid $text-color;
+            margin-bottom: 5rem;
+        }
+        
+    }
+
+}

@@ -1,4 +1,7 @@
+
+
 header {
+    @include center-section;
     padding: 1rem 0;
     font-size: 35px;
     border-bottom: 1px solid $text-color;
@@ -6,6 +9,7 @@ header {
     .logo {
         img {
             width: 40px;
+            margin-right: 1rem;
         }
     }
 
@@ -20,9 +24,9 @@ header {
         a:last-child {
 
             font-weight: bold;
-            color: #2c4792; 
+            color: $link_color; 
             padding: 0.8rem 1rem;
-            border: 1px solid #2c4792;
+            border: 1px solid $link_color;
             border-radius: 0.5rem;
             img {
                 width: 20px;
