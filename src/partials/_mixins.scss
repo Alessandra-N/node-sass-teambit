@@ -24,7 +24,9 @@
     font-size: 30px;
     font-weight: bold;
     line-height: 4rem;
-    text-align: center;
+}
+
+@mixin center {
     width: 50%;
     margin: auto;
 }

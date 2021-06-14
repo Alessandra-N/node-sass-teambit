@@ -21,9 +21,8 @@
             
         h2 {
             @include h2-title;
+            @include center;
             width: 60%;
-            margin: auto;
-            text-align: center;
         }
     
         .img_box_center {

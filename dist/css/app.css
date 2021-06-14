@@ -111,12 +111,9 @@ header nav i {
   font-size: 30px;
   font-weight: bold;
   line-height: 4rem;
-  text-align: center;
   width: 50%;
   margin: auto;
   width: 60%;
-  margin: auto;
-  text-align: center;
 }
 .disengagement .disengagement_box .img_box_center {
   display: flex;
@@ -130,4 +127,28 @@ header nav i {
 .disengagement .disengagement_box .box-first {
   border-bottom: 1px solid #58402c;
   margin-bottom: 5rem;
+}
+
+.feedback {
+  padding: 3rem 0;
+}
+.feedback .row {
+  margin-bottom: 5rem;
+}
+.feedback img {
+  width: 100%;
+}
+.feedback .feed_slim h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 4rem;
+  margin-bottom: 3rem;
+}
+.feedback .feed_slim > p {
+  font-size: 25px;
+}
+.feedback .feed_slim a, .feedback .feed_slim i {
+  color: #2c4792;
+  font-size: 22px;
+  margin: 2rem 0;
 }

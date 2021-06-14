@@ -1,3 +1,24 @@
 .feedback {
-    
+    padding: 3rem 0;
+    .row {
+        margin-bottom: 5rem;
+    }
+    img {
+        width: 100%;
+    }
+    .feed_slim {
+        h2 {
+            @include h2-title;
+            margin-bottom: 3rem;
+        }
+        &>p {
+            font-size: 25px;
+        }
+        a, i {
+            color: $link_color;
+            font-size: 22px;
+            margin: 2rem 0;
+        }
+
+    }
 }
